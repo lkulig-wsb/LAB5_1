@@ -38,6 +38,7 @@ public class Uczen {
     public void wyswietlInfoUczen(){
         System.out.println("Imię: " + imie);
         System.out.println("Nazwisko: " + nazwisko);
+        System.out.println("Dodane oceny:" + getOceny());
         System.out.println("Średnia ocen: " + obliczSredniaOceny());
 
     }
