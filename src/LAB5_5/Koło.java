@@ -1,9 +1,10 @@
 package LAB5_5;
 
+//Klasa Koło dziedziczy po klasie Figura.
 public class Koło extends Figura {
     //Dane składowe.
     private double promien;
-    //Konstruktor
+    //Konstruktor klasy Koło.
     public Koło(String nazwa, String kolor, double promien){
         super(nazwa, kolor);
         this.promien = promien;

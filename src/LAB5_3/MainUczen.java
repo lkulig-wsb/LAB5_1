@@ -29,7 +29,4 @@ public class MainUczen {
         //Wyświetlenie wszystkich ocen obiektu u1
         System.out.println("Oceny u1: " + u1.getOceny());
     }
-
-
-
 }

@@ -19,7 +19,6 @@ public class Motocykl extends Pojazd{
     {
         return pojemnoscSilnika;
     }
-
     @Override
     public String getMarka() {
         return super.getMarka();
@@ -28,11 +27,9 @@ public class Motocykl extends Pojazd{
     public int getRokProdukcji() {
         return super.getRokProdukcji();
     }
-
     public void setTypNapedu(String typNapedu) {
         this.typNapedu = typNapedu;
     }
-
     public void setPojemnoscSilnika(double pojemnoscSilnika) {
         this.pojemnoscSilnika = pojemnoscSilnika;
     }

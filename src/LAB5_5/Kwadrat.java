@@ -1,15 +1,18 @@
 package LAB5_5;
 
+//Klasa Kwadrat dziedziczy po klasie Figura.
 public class Kwadrat extends Figura{
+
+    //Dane składowe klasy Kwadrat.
     private double bok;
 
-    //Konstruktor.
+    //Konstruktor klasy Kwadrat.
     public Kwadrat(String nazwa, String kolor, double bok)
     {
         super(nazwa, kolor);
         this.bok=bok;
     }
-    //Przesłaniamy metodę do wyświetlenia danych kwadratu.
+    //Przesłaniamy metodę do wyświetlenia danych kwadratu. Używamy super do odwołania się do danych z klasy bazowej.
     @Override
     public void wyswietlInfo(){
         super.wyswietlInfo();

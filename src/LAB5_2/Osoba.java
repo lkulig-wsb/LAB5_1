@@ -83,11 +83,6 @@ public class Osoba {
         o3.wprowadzDaneScanner();
         //Wyświetlenie danych obiektu o3.
         o3.wyswietlInfo();
-
-
-
-
-
     }
 
 }

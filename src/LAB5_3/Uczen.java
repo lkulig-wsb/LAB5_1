@@ -4,10 +4,12 @@ import java.util.ArrayList;
 
 public class Uczen {
 
+    //Dane składowe klasy Uczen.
     private String imie;
     private String nazwisko;
     private ArrayList<Double> oceny;
 
+    //Konstruktor klasy Uczen.
     public Uczen(String imie, String nazwisko)
     {
         this.imie = imie;
@@ -58,6 +60,5 @@ public class Uczen {
     public void setNazwisko(String nazwisko){
         this.nazwisko = nazwisko;
     }
-
 
 }

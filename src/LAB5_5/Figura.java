@@ -4,7 +4,7 @@ public class Figura {
     //Dane składowe.
     private String nazwa;
     private String kolor;
-    //Konstruktor
+    //Konstruktor klasy Figura.
     public Figura(String nazwa, String kolor)
     {
         this.nazwa = nazwa;
@@ -26,6 +26,8 @@ public class Figura {
         this.kolor = kolor;
     }
     //Metoda wyświetlająca info figury.
+
+    //Metoda wyświetlająca info Figury.
     public void wyswietlInfo(){
         System.out.println("Figura: " + nazwa);
         System.out.println("Kolor: " + kolor);
