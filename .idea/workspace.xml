@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbcc1e60-6cf2-4a74-a55f-f4302a1595df" name="Changes" comment="LAB5_4 Commit.">
-      <change afterPath="$PROJECT_DIR$/src/LAB5_5/FMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB5_5/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB5_5/Koło.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LAB5_5/Kwadrat.java" afterDir="false" />
+    <list default="true" id="bbcc1e60-6cf2-4a74-a55f-f4302a1595df" name="Changes" comment="LAB5_5 Commit.">
+      <change afterPath="$PROJECT_DIR$/src/LAB5_6/MainPojazd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LAB5_6/Motocykl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LAB5_6/Pojazd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LAB5_6/Samochod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,8 @@
       <workItem from="1701933936261" duration="13569000" />
       <workItem from="1701974336110" duration="3014000" />
       <workItem from="1702018695944" duration="11985000" />
-      <workItem from="1702057928016" duration="7524000" />
+      <workItem from="1702057928016" duration="7633000" />
+      <workItem from="1702119248542" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="LAB5_1 Initial Commit.">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702061328157</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LAB5_5 Commit.">
+      <option name="closed" value="true" />
+      <created>1702068921815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702068921815</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +161,8 @@
     <MESSAGE value="LAB5_3 Commit." />
     <MESSAGE value="LAB5_3 Update1 Commit." />
     <MESSAGE value="LAB5_4 Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB5_4 Commit." />
+    <MESSAGE value="LAB5_5 Commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB5_5 Commit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,6 +171,15 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LAB5_6/Pojazd.java</url>
+          <line>18</line>
+          <properties class="LAB5_6.Pojazd" method="getRokProdukcji">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
