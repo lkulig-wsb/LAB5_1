@@ -44,6 +44,7 @@ public class MainPojazd {
             System.out.println("Nie udało zrobić się rzutowania na Motocykl!!!");
         }
         //////////////////////////////////////////////////////////////////////////
+
         //Rzutowanie pojazdu na samochód.
         Samochod samochodZPojazdu = (Samochod) p1;
         //Weryfikacja czy możemy uzyskać dostęp do pól i metod właściwych dla samochodu.

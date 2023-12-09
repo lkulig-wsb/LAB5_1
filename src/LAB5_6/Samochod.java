@@ -1,17 +1,17 @@
 package LAB5_6;
 //Klasa dziedzicząca po klasie Pojazd.
 public class Samochod extends Pojazd{
-    //Dane składowe klasy samochód
+    //Dane składowe klasy Samochód.
     private int liczbaDrzwi;
     private String typSilnika;
-    //Konstruktor klays Samochod
+    //Konstruktor klasy Samochod.
     public Samochod(String marka, int rokProdukcji, int liczbaDrzwi, String typSilnika)
     {
         super(marka,rokProdukcji);
         this.liczbaDrzwi = liczbaDrzwi;
         this.typSilnika = typSilnika;
     }
-    //Gettery i settery klasy samochód.
+    //Gettery i settery klasy Samochód.
 
     public int getLiczbaDrzwi() {
         return liczbaDrzwi;
@@ -24,9 +24,11 @@ public class Samochod extends Pojazd{
     public int getRokProdukcji() {
         return super.getRokProdukcji();
     }
+    //@Override oznacza że następująca metoda (w klasie dziedziczącej) ma zastąpić metodę o tej samej nazwie w
+    //klasie nadrzędnej.
     @Override
     public String getMarka() {
-        return super.getMarka();
+        return super.getMarka();// super jest użyte żeby odnieść się do klasy bazowej (wywołanie metody z klasy bazowej)
     }
 
     public void setLiczbaDrzwi(int liczbaDrzwi) {
